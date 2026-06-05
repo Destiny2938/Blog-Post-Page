@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog Post Page</title>
-    <meta name="description" content="Destiny's Blog Post Page">
+    <meta name="description" content="Why semantic HTML improves accessibility, SEO, and code maintainability.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Destiny's Blog Post Page">
     <meta property="og:type" content="website">
@@ -16,6 +16,63 @@
 </head>
 
 <body>
+    <header>
+        <p>MyBlog</p>
+        <nav><a href="#">Home</a><a href="#">Blog</a><a href="#">About</a><a href="#">Contact</a></nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h1>Why Senmatic <abbr title="HyperText Markup Language">HTML</abbr> Matters</h1>
+                <p><time datetime="2026-05-20">May 20, 2026</time> by Alex Carter</p>
+                <p>Semantic <abbr title="HyperText Markup Language">HTML</abbr> is about using the right tags for the
+                    meaning of your content.</p>
+                <p>It improves accessibility, <abbr title="Search Engine Optimization">SEO</abbr>, and makes your code
+                    easier to maintain.</p>
+            </header>
+            <article>
+                <h2>Benefits</h2>
+                <p>Using semantic <abbr title="HyperText Markup Language">HTML</abbr> helps you:</p>
+                <ul>
+                    <li>Build more accessible websites</li>
+                    <li>Improve search engine understanding</li>
+                    <li>Write cleaner, more maintainable code</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Examples</h2>
+                <p>When you focus on <em>meaning</em>, not appearance, you write cleaner content.</p>
+                <p>Use <em>meaning matters</em>, not appearance, and mark <em>important ideas</em> clearly.</p>
+                <figure>
+                    <img src="assets/MAS.jpg" alt="Mountain at Sunrise">
+                    <figcaption>Mountain at sunrise.</figcaption>
+                </figure>
+                <blockquote>"The best way to learn <abbr title="HyperText Markup Language">HTML</abbr> is by writing
+                    it."
+                    - <cite>MDN Web Docs</cite>
+                </blockquote>
+            </article>
+            <article>
+                <h2>Code sample</h2>
+                <p>Use the <code>&lt;code&gt;</code> element for inline code, like
+                    <code>&lt;code&gt;main&lt;/code&gt;</code>.
+                </p>
+                <p>Here is a code block:</p>
+                <pre><code>&lt;p class="note"&gt;
+   Semantic HTML makes the web better for everyone.
+&lt;p&gt;
+                </code></pre>
+            </article>
+    </main>
+    <footer>
+        <article>
+            <h2>Learn More</h2>
+            <p>Read the <a href="https://html.spec.whatwg.org/multipage/" target="_blank"
+                    rel="noopener noreferrer"><abbr title="HyperText Markup Language">HTML</abbr> Living
+                    Standard</a> to learn more about <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+        </article>
+        <p>&#169; <time datetime="2026">2026</time> MyBlog. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
